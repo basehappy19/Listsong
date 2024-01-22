@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500&display=swap');
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+	display:none;
+}
+.content {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+.search {
+    background-color: rgb(239, 233, 143);
+}
+.x {
+    background-color: rgb(255, 166, 166);
+}
+
+.add {
+    background-color: rgb(143, 239, 173);
+}
+
+.moon {
+    background-color: rgb(143, 233, 239);
+}
+.search-dark {
+    background-color: rgb(131, 127, 79);
+}
+
+.x-dark {
+    background-color: rgb(117, 70, 70);
+}
+
+.add-dark {
+    background-color: rgb(80, 136, 98);
+}
+
+.sun-dark {
+    background-color: rgb(80, 117, 119);
+}
+
+
+.btn1 {
+    width: 84px; background-color: rgb(143, 233, 239);
+}
+.btn2 {
+    background-color: rgb(236, 166, 255);
+}
+
+.btn3 {
+    background-color: rgb(143, 239, 173);
+}
+
+.btn4 {
+    background-color: rgb(239, 220, 143);
+}
+.btn5 {
+    background-color: rgb(255, 166, 166);
+}
+
+.btn1-dark {
+    width: 84px; background-color: rgb(87, 93, 177);
+    color: #fff;
+}
+
+.btn2-dark {
+    background-color: rgb(178, 111, 198);
+    color: #fff;
+}
+.btn3-dark {
+    background-color: rgb(59, 117, 78);
+    color: #fff;
+}
+
+.btn4-dark {
+    background-color: rgb(124, 114, 74);
+    color: #fff;
+}
+.btn5-dark {
+    background-color: rgb(117, 70, 70);
+    color: #fff;
+}
+
+/* .lyrics {   
+} */
+.h1list {
+    font-size: 40px;
+}
+.song-card {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+.song-card {
+    transition: transform 0.2s ease;
+}
+.song-card:hover {
+    transform: scale(1.05); /* เพิ่มขนาดของ card เมื่อ hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* เพิ่มเงาเมื่อ hover */
+}
+.song-title {
+    font-size: 19px;
+}
+.song-artist {
+    font-size: 16px;
+    opacity: 80%;
+    text-transform: capitalize;
+    line-height: 3px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+.song-details {
+    font-size: 14px;
+    opacity: 50%;
+    line-height: 3px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+.form {
+    line-height: 0.75;
+}
+.form-add-input:hover,
+.form-add-label:hover {
+    cursor: pointer;
+}
+.form-add-input:checked,
+.form-add-input:checked {
+    background-color: #00aeff;
+}
+.form-add-input-dark:checked,
+.form-add-input-dark:checked {
+    background-color: #056c9c; 
+}
+
